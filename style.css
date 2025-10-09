@@ -1,54 +1,13 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-:root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --main-color:#7cf03d;
-    --white-color: #fff;
-    --disabled-color: #fff3;
+.banner{
+    background-image:url(/Web-Design/Projects/Portfolio/Image/Background.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-html{
-    font-size: 62.5%;
-}
-body{
-    color:var(--white-color);
-}
-header{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    padding: 2rem 9%;
-    background: var(--bg-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-
-}
-.logo{
-    font-size: 3rem;
-    color:var(--white-color);
-    font-weight: 700;
-}
-nav a{
-    font-size: 2rem;
-    color: var(--white-color);
-    font-weight: 500;
-    margin-left: 3.5rem;
-    transition: .5s;
-}
-nav a:hover{
-    color: var(--main-color);
-}
-#menu-icon{
-    font-size: 4 rem;
-    display: none;
+.skills-padding
+{
+    padding: 70px 0;
 }
